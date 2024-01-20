@@ -9,29 +9,22 @@
     <header>
         <h1>Registration Form</h1>
         <form>
-        <div class="Name">
             <label for="name">Name:</label>
-            <input type="text" id="name" password="name"><br><br>
-        </div>
+            <input type="text" id="name" password="name" required><br><br>
 
-        <div class="Password">
+            <p>Password must be 8 or more characters</p>
             <label for="password">Password</label>
-            <input type="password" id="password" name="password"><br><br>
-        </div>
+            <input type="password" id="password" name="password" pattern=".{8,}"  title="Eight or more characters"><br><br>
         
-        <div class="Gender">
             <label for="gender">Gender:</label><br>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gander" value="female">
             <label for="female">Female</label><br><br>
-        </div>
         
-        <div class="Terms and Conditions">
             <label for="terms">Accept Terms and Conditions:</label>
             <input type="checkbox" id="terms" name="terms"><br><br>
             <input type="submit" value="Submit">
-        </div>
         
     </form> 
 
