@@ -6,20 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Registration Form</h1>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" password="name" required><br><br>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+            <input type="text" id="name" pattern="name" required><br><br>
 
             <p>Password must be 8 or more characters</p>
             <label for="password">Password</label>
             <input type="password" id="password" name="password" pattern=".{8,}"  title="Eight or more characters"><br><br>
         
-            <label for="gender">Gender:</label><br>
+            <p>Gender</p>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gander" value="female">
+            <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br><br>
         
             <label for="terms">Accept Terms and Conditions:</label>
