@@ -1,0 +1,23 @@
+body{
+    color: black;
+    margin-top: 100px;
+}
+
+h1 {
+    color: grey;
+    font-size: xx-large;
+    border: 15px solid #AAFF00;
+    font-style: oblique;
+}
+
+p {
+    margin-inline-start: auto;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+ul {
+    color: red;
+    font-size: medium;
+    font-style: inherit;
+}
